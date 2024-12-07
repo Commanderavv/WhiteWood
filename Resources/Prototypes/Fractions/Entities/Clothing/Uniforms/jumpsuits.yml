@@ -1,0 +1,76 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGeneralBlack
+  name: Немецкая черная генеральская форма
+  description: Black German general's uniform. There are 3 golden oak leaves on the buttonholes, and the shoulder straps are a weave of a constructed suture cord, the inner row of which is silver, and the sides are golden.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/general_black.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/general_black.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CClothingUniformGeneralGreen
+  name: Немецкая полевая генеральская форма
+  description: Полевая немецкая генеральская форма. Петлицы богато орнаментированы золотыми, вышитыми на суконном клапане алого цвета с стилизованным дубовым листом. Вот так! И запомните, что голова у солдата, чтобы думать, а мозги чтобы соображать.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/general_green.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/general_green.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformOfficerBlack
+  name: Немецкая черная офицерская форма
+  description: Черная немецкая офицерская форма. На правой руке виднееться шеврон в форме буквы V. Не думай о секундах свысока...
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/officer_black.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/officer_black.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformOfficerGreen
+  name: Немецкая полевая офицерская форма
+  description: Полевая немецкая офицерская форма. Запомните, ботинки надо чистить с вечера, а утром надевать на свежую голову.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/officer_green.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/officer_green.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformOfficerGrey
+  name: Немецкая серая офицерская форма
+  description: Серая немецкая офицерская форма. Над обшлагом левого рукава виднееться шеврон SD. Подобную форму носят сотрудники службы безопасности и разведки.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/officer_grey.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/officer_grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSschutzeBlack
+  name: Немецкая черная форма
+  description: Черная немецкая форма. На петлицах виднеются 2 руны «зиг».
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/schutze_black.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/schutze_black.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSschutzeGreen
+  name: Немецкая солдатская форма
+  description: Солдатская немецкая форма. Так точно, Гер майор!
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/schutze_green.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/schutze_green.rsi
