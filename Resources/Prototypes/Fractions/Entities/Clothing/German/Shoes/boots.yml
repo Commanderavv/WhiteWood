@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingShoesBootsJack
   id: ClothingShoesBootsGermanАrmy
-  name: Немецкие военные сапоги
+  name: Старые военные сапоги
   description: Маршевые сапоги" Marschstiefel". Сапоги из качественной коровьей кожи покрашенной в черный цвет. Двойная подошва укреплена квадратными гвоздями.
   components:
     - type: Sprite

@@ -1,0 +1,27 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltGermanАrmyHolsterBlack
+  name: Немецкая черная портупея с кобурой
+  description: На пряжке ремня выгравирована надпись Gott mit uns, что означает С нами Бог.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/German/Belt/officer_belt_black.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/German/Belt/officer_belt_black.rsi
+  - type: Storage
+    grid:
+    - 0,0,3,1
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltGermanАrmyHolsterGreen
+  name: Немецкая полевая портупея с кобурой
+  description: На пряжке ремня выгравирована надпись Gott mit uns, что означает С нами Бог.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/German/Belt/officer_belt_green.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/German/Belt/officer_belt_green.rsi
+  - type: Storage
+    grid:
+    - 0,0,3,1
