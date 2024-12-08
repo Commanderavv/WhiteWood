@@ -2,7 +2,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGeneralBlack
   name: Немецкая черная генеральская форма
-  description: Black German general's uniform. There are 3 golden oak leaves on the buttonholes, and the shoulder straps are a weave of a constructed suture cord, the inner row of which is silver, and the sides are golden.
+  description: Черная немецкая генеральская форма. На петлицах изображены 3 золотых дубовых листа, а погоны выполнены из плетеного шнура, внутренний ряд которого серебристый, а боковые - золотистые.
   components:
     - type: Sprite
       sprite: Fractions/Clothing/German/Uniforms/Jumpsuit/general_black.rsi
