@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingShoesBootsJack
+  id: ClothingShoesBootsGermanАrmy
+  name: Немецкие военные сапоги
+  description: Маршевые сапоги" Marschstiefel". Сапоги из качественной коровьей кожи покрашенной в черный цвет. Двойная подошва укреплена квадратными гвоздями.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Shoes/army_black.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Shoes/army_black.rsi

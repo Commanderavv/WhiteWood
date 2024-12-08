@@ -1,0 +1,54 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCapGeneralBlack
+  name: Немецкая черная генеральская фуражка
+  description: Черная немецкая генеральская фуражка. Король превосходит своих подданных только на высоту своей короны...
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Head/Hats/general_black.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Head/Hats/general_black.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCapGeneralGreen
+  name: Немецкая полевая генеральская фуражка
+  description: Полевая немецкая генеральская фуражка. Король превосходит своих подданных только на высоту своей короны...
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Head/Hats/general_green.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Head/Hats/general_green.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCapOfficerBlack
+  name: Немецкая черная офицерская фуражка
+  description: Черная немецкая офицерская фуражка. Штирлиц, а вас я попрошу остаться!
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Head/Hats/officer_black.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Head/Hats/officer_black.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCapOfficerGreen
+  name: Немецкая полевая офицерская фуражка
+  description: Полевая немецкая офицерская фуражка. Эта фуражка пережила не один блицкриг...
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Head/Hats/officer_green.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Head/Hats/officer_green.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCapOfficerGrey
+  name: Немецкая серая офицерская фуражка
+  description: Серая немецкая офицерская фуражка. Подобную фуражку носят сотрудники службы безопасности и разведки.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Head/Hats/officer_grey.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Head/Hats/officer_grey.rsi
