@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingBeltStorageBase
-  id: ClothingBeltGermanАrmyHolsterBlack
+  id: ClothingBeltGermanОfficerHolsterBlack
   name: Немецкая черная портупея с кобурой
   description: На пряжке ремня выгравирована надпись Gott mit uns, что означает С нами Бог.
   components:
@@ -14,7 +14,7 @@
 
 - type: entity
   parent: ClothingBeltStorageBase
-  id: ClothingBeltGermanАrmyHolsterGreen
+  id: ClothingBeltGermanОfficerHolsterGreen
   name: Немецкая полевая портупея с кобурой
   description: На пряжке ремня выгравирована надпись Gott mit uns, что означает С нами Бог.
   components:
@@ -25,3 +25,43 @@
   - type: Storage
     grid:
     - 0,0,3,1
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: lothingBeltGermanSchutzeHolster
+  name: Немецкий штурмовой ремень
+  description: На пряжке ремня выгравирована надпись Gott mit uns, что означает С нами Бог.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/German/Belt/schutze_belt.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/German/Belt/schutze_belt.rsi
+  - type: Storage
+    whitelist:
+      tags:
+        - CigPack
+        - Taser
+      components:
+        - Stunbaton
+        - FlashOnTrigger
+        - SmokeOnTrigger
+        - Flash
+        - Handcuff
+        - BallisticAmmoProvider
+        - Ammo
+  - type: ItemMapper
+    mapLayers:
+      flashbang:
+        whitelist:
+          components:
+          - FlashOnTrigger
+      stunbaton:
+        whitelist:
+          components:
+          - Stunbaton
+      tear_gas_grenade:
+        whitelist:
+          components:
+          - SmokeOnTrigger
+    sprite: Clothing/Belt/belt_overlay.rsi
+  - type: Appearance
