@@ -2,7 +2,7 @@
   parent: ClothingBeltStorageBase
   id: ClothingBeltGermanОfficerHolsterBlack
   name: Немецкая черная портупея с кобурой
-  description: На пряжке ремня выгравирована надпись Gott mit uns, что означает С нами Бог.
+  description: На пряжке ремня выгравирована надпись "Gott mit uns", что означает "С нами Бог".
   components:
   - type: Sprite
     sprite: Fractions/Clothing/German/Belt/officer_belt_black.rsi
@@ -16,7 +16,7 @@
   parent: ClothingBeltStorageBase
   id: ClothingBeltGermanОfficerHolsterGreen
   name: Немецкая полевая портупея с кобурой
-  description: На пряжке ремня выгравирована надпись Gott mit uns, что означает С нами Бог.
+  description: На пряжке ремня выгравирована надпись "Gott mit uns", что означает "С нами Бог".
   components:
   - type: Sprite
     sprite: Fractions/Clothing/German/Belt/officer_belt_green.rsi
@@ -30,7 +30,7 @@
   parent: ClothingBeltStorageBase
   id: lothingBeltGermanSchutzeHolster
   name: Немецкий штурмовой ремень
-  description: На пряжке ремня выгравирована надпись Gott mit uns, что означает С нами Бог.
+  description: На пряжке ремня выгравирована надпись "Gott mit uns", что означает "С нами Бог"
   components:
   - type: Sprite
     sprite: Fractions/Clothing/German/Belt/schutze_belt.rsi
