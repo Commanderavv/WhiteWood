@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingHeadHelmetBase ]
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetGermanBlack
   name: немецкий пехотный шлем
   description: Пехотная каска Штальхельм, используется всеми родами войск.
