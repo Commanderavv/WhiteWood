@@ -543,6 +543,26 @@
 #ERT Leader Hardsuit
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndieCommander ]
+  id: ClothingHeadHelmetHardsuitERTCentralCommander
+  name: шлем скафандра Центком
+  description: Специальный защитный шлем, используемый представителями Центрального командования.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hardsuits/ERThelmets/ertсentralсommander.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hardsuits/ERThelmets/ertсentralсommander.rsi
+  - type: PointLight # Corvax-Resprite
+    color: cyan
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+- type: entity
+  parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndieCommander ]
   id: ClothingHeadHelmetHardsuitERTLeader
   name: ERT leader hardsuit helmet
   description: A special hardsuit helmet worn by members of an emergency response team.

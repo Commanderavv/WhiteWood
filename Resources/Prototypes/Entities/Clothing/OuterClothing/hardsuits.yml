@@ -764,6 +764,19 @@
 #ERT Leader Hardsuit
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieCommander ]
+  id: ClothingOuterHardsuitERTCentralCommander
+  name: скафандр Центком
+  description: Защитный скафандр, используемый представителями Центрального командования.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertсentralсommander.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertсentralсommander.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTCentralCommander
+
+- type: entity
+  parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieCommander ]
   id: ClothingOuterHardsuitERTLeader
   name: ERT leader's hardsuit
   description: A protective hardsuit worn by the leader of an emergency response team.
