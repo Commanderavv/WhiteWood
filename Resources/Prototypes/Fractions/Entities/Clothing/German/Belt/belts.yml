@@ -15,7 +15,7 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltGermanОfficerHolsterGreen
-  name: немецкая полевая портупея с кобурой
+  name: полевая портупея с кобурой
   description: На пряжке ремня выгравирована надпись "Gott mit uns", что означает "С нами Бог".
   components:
   - type: Sprite

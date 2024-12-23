@@ -1,0 +1,19 @@
+- type: entity
+  parent: [ClothingMaskGas, ]
+  id: ClothingMaskGasFieldleMask
+  name: противогаз мобильной оперативной группы
+  description: Улучшенная модификация, изготовленная по последним требованиям. Прибор отличается усиленной защитой и высокой эффективностью.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/SCP Foundation/Mask/gas.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/SCP Foundation/Mask/gas.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
